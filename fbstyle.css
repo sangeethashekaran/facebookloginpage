@@ -1,0 +1,107 @@
+
+/* login form positioning i.e 2nd div*/
+.login {    
+    width: 300px;
+    height: 360px;
+    position:relative; 
+    top: 100px; 
+    background-color: whitesmoke;
+     align-items: flex-end; 
+}
+.position {
+    position:absolute;
+    right: 100px;
+
+}
+
+/* input box */
+.mb-4 {
+    width: 400px;
+    position: relative;
+    left: 20px;
+    
+}
+/* login button */
+.btn{
+    width:400px;
+}
+
+.box{ 
+     position:relative; 
+     top: 20px;
+     align-content: center;
+     text-align: center;
+
+ } 
+ /* forgot paswd */
+ a {
+     position:relative;
+     top: 15px;
+ }
+ /* horizontl lin */
+ hr {
+     position: relative;
+     top: 15px;
+ }
+ /* create accont button */
+.create {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+}
+/* facebook img */
+img {
+    position:absolute;
+    top: 180px;
+    width: 250px;
+    left: 190px;
+    
+
+}
+.h2head{
+    position: absolute;
+    top:255px;
+    left: 200px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+}
+h6 {
+    position: absolute;
+    top: 470px;
+    right: 150px;
+    font-size: smaller;
+
+}
+#page-footer{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    
+    top:700px;
+    bottom: 0;
+    /* Height of the footer*/ 
+    height: 150px;
+    font-size: small;
+    background-color:white;
+    
+}
+p{
+    text-indent:200px;
+    padding-top: 7px;
+    color:#08308c;
+}
+.secline{
+    line-height: 3px;
+    padding-top: 7px;
+    text-indent: 200px;
+    padding-left: 2px;
+    padding-right: 5px;
+}
+.foot-hr{
+    width: 60%;
+    position:absolute;
+    left: 200px;
+
+}
